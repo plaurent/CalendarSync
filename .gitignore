@@ -147,3 +147,10 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# CalendarSync secrets and local state
+credentials.json
+config.json
+tokens/
+.DS_Store
+site/

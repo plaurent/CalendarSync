@@ -1,0 +1,33 @@
+{
+  "target": {
+    "account": "patryk@pakl.net",
+    "calendarId": "primary"
+  },
+  "sources": [
+    {
+      "account": "patryk@pakl.net",
+      "calendarId": "primary"
+    },
+    {
+      "account": "work@example.com",
+      "calendarId": "primary"
+    },
+    {
+      "account": "work@example.com",
+      "calendarId": "team-abc123@group.calendar.google.com"
+    }
+  ],
+  "busy": {
+    "title": "Busy",
+    "calendars": [
+      {
+        "account": "patryk@pakl.net",
+        "calendarId": "primary"
+      },
+      {
+        "account": "work@example.com",
+        "calendarId": "primary"
+      }
+    ]
+  }
+}
