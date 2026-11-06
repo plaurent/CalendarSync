@@ -93,6 +93,60 @@ To also keep Busy blocks, add a `busy` section (see [Busy blocks](#busy-blocks))
 }
 ```
 
+
+Mine looks like this:
+
+```json
+{
+  "target": {
+    "account": "patryklaurent@gmail.com",
+    "calendarId": "primary"
+  },
+  "sources": [
+    {
+      "account": "patryk@pakl.net",
+      "calendarId": "primary"
+    },
+    {
+      "account": "patryk@lighthill.ai",
+      "calendarId": "primary"
+    },
+    {
+      "account": "plaurent@gmail.com",
+      "calendarId": "primary"
+    },
+    {
+      "account": "patryk@company1.com",
+      "calendarId": "primary"
+    },
+    {
+      "account": "patryk@company2.com",
+      "calendarId": "primary"
+    },
+    {
+      "account": "plaurent@nonprofit1.org",
+      "calendarId": "primary"
+    },
+    {
+      "account": "patryk.laurent@company3.net",
+      "calendarId": "primary"
+    }
+  ],
+  "busy": {
+    "title": "Busy",
+    "calendars": [
+      { "account": "plaurent@nonprofit1.org",  "calendarId": "primary" },
+      { "account": "plaurent@gmail.com", "calendarId": "primary" },
+      { "account": "patryk@company2.com",  "calendarId": "primary" },
+      { "account": "patryklaurent@gmail.com", "calendarId": "primary" },
+      { "account": "patryk@company1.com", "calendarId": "primary" }
+    ]
+  }
+}
+```
+
+
+
 ## 4. Authorize each account (one time per account)
 
 ```bash
