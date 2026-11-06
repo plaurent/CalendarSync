@@ -24,8 +24,8 @@ See [Busy blocks](#busy-blocks).
 ## Requirements
 
 - Node.js 18+
-- A Google Cloud project with the Google Calendar API enabled
-- One OAuth "Desktop app" client (shared by all accounts you authorize)
+- A Google Cloud project with the Google Calendar API enabled (if you're a friend you can use the one I set up)
+- One OAuth "Desktop app" client (shared by all accounts you authorize), like Chrome logged into your accounts
 
 ## 1. Install
 
