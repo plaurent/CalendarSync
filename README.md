@@ -34,9 +34,9 @@ cd CalendarSync
 npm install
 ```
 
-## 2. Create Google OAuth credentials (one time)
+## 2. Create Google OAuth credentials (one time or get Patryk's)
 
-If Patryk provided you with his CalendarSync Google Cloud Project's credentials.json, just use that.
+If Patryk provided you with his CalendarSync Google Cloud Project's `credentials.json`, just use that.
 
 Otherwise, or if you want to create your own Google Cloud Project CalenderSync project:
 
